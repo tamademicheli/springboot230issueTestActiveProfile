@@ -9,7 +9,7 @@ import org.springframework.test.context.ActiveProfiles;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.NONE;
 
 @SpringBootTest(webEnvironment = NONE)
-@ActiveProfiles("test, backend")
+@ActiveProfiles("backend, test")
 class ActiveProfilesTestBackendTest {
 
 	@Value("${myapplicationvalue}")
